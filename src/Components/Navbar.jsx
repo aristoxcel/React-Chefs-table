@@ -35,7 +35,7 @@ export default function Navbar() {
   </div>
 </div>
 
-<div><a className="btn btn-ghost text-4xl text-gray-900 lg:hidden md:hidden mt-4">Chefs Table</a></div>
+<div><a className="btn btn-ghost text-4xl text-gray-900 lg:hidden md:hidden mt-4">Chefs Tables</a></div>
     </div>
   )
 }

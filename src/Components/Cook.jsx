@@ -1,8 +1,8 @@
 import Cooking from "./Cooking"
+import PropTypes from 'prop-types';
 
 
 function Cook({cookItem, handleCooking, recipe}) {
-    const {recipe_id, recipe_name, preparing_time, calories}=cookItem
    return ( 
     <div >
         <h1 className="text-2xl font-bold">Want to cook: {cookItem.length}</h1>
@@ -40,6 +40,12 @@ function Cook({cookItem, handleCooking, recipe}) {
         </div>
      </div>
   )
+}
+
+Cook.propTypes = {
+  cookItem: PropTypes.array.isRequired,
+  recipe: PropTypes.array.isRequired,
+  handleCooking: PropTypes.func
 }
 
 export default Cook

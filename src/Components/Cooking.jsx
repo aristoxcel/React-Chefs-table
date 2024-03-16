@@ -1,8 +1,7 @@
-
+import PropTypes from 'prop-types';
 
 function Cooking({recipe}) {
-  const {recipe_id, recipe_name, preparing_time, calories}=recipe
-  console.log(recipe);
+  
   return (
     <div>
     <h1 className="text-2xl font-bold">Curently Cooking: {recipe.length}</h1>
@@ -47,5 +46,8 @@ function Cooking({recipe}) {
   )
 }
 
+Cooking.propTypes = {
+  recipe: PropTypes.array.isRequired,
+}
 
 export default Cooking

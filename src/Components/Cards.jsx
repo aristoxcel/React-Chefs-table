@@ -1,8 +1,9 @@
 import { PiFireSimpleBold } from "react-icons/pi";
 import { MdOutlineWatchLater } from "react-icons/md";
+import PropTypes from 'prop-types';
 
 function Cards({card, handleChoose}) {
-    const {recipe_id, recipe_image, recipe_name, short_description, ingredients, preparing_time, calories}=card
+    const {recipe_image, recipe_name, short_description, ingredients, preparing_time, calories}=card
   return (
     <div>
         <div className="card   shadow-xl border-2 border-gray-200">
@@ -42,5 +43,10 @@ function Cards({card, handleChoose}) {
     </div>
   )
 }
+
+Cards.propTypes = {
+    card: PropTypes.object.isRequired,
+    handleChoose: PropTypes.func
+  }
 
 export default Cards

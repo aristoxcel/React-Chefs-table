@@ -37,7 +37,7 @@ function Body() {
 
 
   return (
-    <div>
+    <div className="mb-10">
          <div className="space-y-7 mt-32 ">
              <h1 className="font-semibold text-5xl ">Our Recipes</h1>
             <p className="text-base max-w-screen-lg mx-auto "> Explore "Our Recipes" for delicious dishes! From appetizers to desserts, our collection has something for everyone. Join us on a culinary journey today and let your taste buds dance with delight!!</p>
