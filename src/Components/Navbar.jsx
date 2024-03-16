@@ -26,7 +26,7 @@ export default function Navbar() {
     </ul>
   </div>
   <div className="navbar-end">
-      <label className="input input-bordered flex items-center gap-2 rounded-full bg-gray-100 mr-4">
+      <label className="input input-bordered flex items-center gap-2 rounded-full bg-gray-50 mr-4">
       <CiSearch />
       <input type="text" className="lg:grow shrink-0" placeholder="Search" />
       </label>

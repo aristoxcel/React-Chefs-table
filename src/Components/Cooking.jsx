@@ -34,8 +34,8 @@ function Cooking({recipe}) {
     <tr>
         <td></td>
         <td></td>
-        <td>Total minutes ={recipe.reduce((p,c)=>p+c.preparing_time,0)} </td>
-        <td>Total Calories ={recipe.reduce((p,c)=>p+c.calories,0)}</td>
+        <td>Total Time = {recipe.reduce((p,c)=>p+c.preparing_time,0)} minutes </td>
+        <td>Total Calories = {recipe.reduce((p,c)=>p+c.calories,0)} calories</td>
     </tr>
 
 
