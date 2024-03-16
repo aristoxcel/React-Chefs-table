@@ -18,7 +18,7 @@ function Cards({card, handleChoose}) {
                 <h1 className="font-semibold mb-3">Ingredients: {ingredients.length}</h1>
                 <ul className="list-disc pl-7">
                     {
-                        ingredients.map((i, id)=> id<3?<li key={id}>{i}</li>:'')
+                        ingredients.map((i, id)=> <li key={id}>{i}</li>)
                     } 
                 </ul>
             </div>
