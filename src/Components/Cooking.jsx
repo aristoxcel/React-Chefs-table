@@ -5,7 +5,7 @@ function Cooking({recipe}) {
   console.log(recipe);
   return (
     <div>
-    <h1>Curently Cooking: {recipe.length}</h1>
+    <h1 className="text-2xl font-bold">Curently Cooking: {recipe.length}</h1>
     <div className="divider"></div>
     <div className="overflow-x-auto">
 <table className="table">

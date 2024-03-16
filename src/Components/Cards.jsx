@@ -12,16 +12,16 @@ function Cards({card, handleChoose}) {
         <div className="card-body">
             <h2 className="card-title">{recipe_name}</h2>
             <p className="text-start">{short_description}</p>
-            <div className="divider"></div>
+            <div className="divider my-0"></div>
             <div className="text-start">
-                <h1 className="font-semibold">Ingredients: {ingredients.length}</h1>
+                <h1 className="font-semibold mb-3">Ingredients: {ingredients.length}</h1>
                 <ul className="list-disc pl-7">
                     {
                         ingredients.map((i, id)=> id<3?<li key={id}>{i}</li>:'')
                     } 
                 </ul>
             </div>
-            <div className="divider"></div>
+            <div className="divider my-1"></div>
             <div className="flex justify-between w-full">
                 <div className="flex gap-1 items-center">
                     <MdOutlineWatchLater />

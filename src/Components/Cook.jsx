@@ -5,7 +5,7 @@ function Cook({cookItem, handleCooking, recipe}) {
     const {recipe_id, recipe_name, preparing_time, calories}=cookItem
    return ( 
     <div >
-        <h1>Want to cook: {cookItem.length}</h1>
+        <h1 className="text-2xl font-bold">Want to cook: {cookItem.length}</h1>
         <div className="divider"></div>
         <div className="overflow-x-auto">
               <table className="table">
