@@ -1,0 +1,57 @@
+[
+    {
+        "recipe_image": "https://i.ibb.co/zXfbH8G/chicken-curry.png",
+        "recipe_id": 1,
+        "recipe_name": "Chicken Curry",
+        "short_description": "A flavorful chicken curry with aromatic spices.",
+        "ingredients": ["550 g chicken", "2 cloves garlic, minced", "50 g grated Parmesan cheese", "120 ml soy sauce", "200 g basil leaf", "400 g mushroom"],
+        "preparing_time": 30,
+        "calories": 320
+    },
+    {
+        "recipe_image": "https://i.ibb.co/56j2Vjf/spaghetti-bolognese.png",
+        "recipe_id": 2,
+        "recipe_name": "Spaghetti Bolognese",
+        "short_description": "Classic Italian pasta dish with rich meat sauce.",
+        "ingredients": ["400 g spaghetti", "1 onion, sliced", "2 cloves garlic, minced", "250 g ground beef", "500 ml tomato sauce", "100 g onion"],
+        "preparing_time": 45,
+        "calories": 450
+    },
+    {
+        "recipe_image": "https://i.ibb.co/5KFQbQL/vegetable-stir-fry.png",
+        "recipe_id": 3,
+        "recipe_name": "Vegetable Stir Fry",
+        "short_description": "A colorful medley of fresh vegetables stir-fried to perfection.",
+        "ingredients": ["300 g mixed vegetables", "150 g tofu", "50 ml soy sauce", "100 g bell peppers", "1 onion, sliced", "2 cloves garlic, minced"],
+        "preparing_time": 20,
+        "calories": 180
+    },
+    {
+        "recipe_image": "https://i.ibb.co/fSGrLps/salmon-salad.png",
+        "recipe_id": 4,
+        "recipe_name": "Salmon Salad",
+        "short_description": "Healthy salad with grilled salmon and fresh greens.",
+        "ingredients": ["200 g salmon fillet", "1/2 avocado, sliced", "1 lemon, juiced", "100 g mixed greens", "50 g cherry tomatoes", "30 ml balsamic vinaigrette"],
+        "preparing_time": 15,
+        "calories": 250
+    },
+    {
+        "recipe_image": "https://i.ibb.co/qM1CLcT/bread.jpg",
+        "recipe_id": 5,
+        "recipe_name": "Banana Bread",
+        "short_description": "Moist and delicious banana bread, perfect for breakfast or dessert.",
+        "ingredients": ["300 g ripe bananas", "1 tsp baking powder", "1/2 tsp vanilla extract","150 g flour", "100 g sugar", "50 g butter"],
+        "preparing_time": 60,
+        "calories": 200
+    },
+    {
+        "recipe_image": "https://i.ibb.co/tMwQSbB/sc2-VEwhts-G.jpg",
+        "recipe_id": 6,
+        "recipe_name": "Vegetable Soup",
+        "short_description": "Hearty vegetable soup, packed with nutritious goodness.",
+        "ingredients": ["500 g mixed vegetables", "1 liter vegetable broth", "100 g onion", "50 g garlic", "2 cloves garlic, minced",
+        "1 tbsp olive oil"],
+        "preparing_time": 35,
+        "calories": 150
+    }
+]
